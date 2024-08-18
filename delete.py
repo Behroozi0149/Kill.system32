@@ -1,13 +1,7 @@
 import os
-
-# Directory path where you want to create the files
-directory = "D:\\TestFiles"  # Change to your desired path
-
-# Check if the directory exists and create it if it doesn't
+directory = "D:\\TestFiles"
 if not os.path.exists(directory):
     os.makedirs(directory)
-
-# Create 100 files with different names
 for i in range(1, 101):
     file_name = f"file{i}.txt"
     file_path = os.path.join(directory, file_name)
