@@ -8,3 +8,4 @@ for i in range(1, 101):
     with open(file_path, 'w') as file:
         file.write(f"This is file number {i}.")
     print(f"File {file_name} has been successfully created.")
+#don't run
